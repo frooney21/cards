@@ -1,0 +1,30 @@
+public class Card(cardRank, cardSuit)
+{
+  public Rank cardRank
+  {
+   Rank one = new Rank("one", 1);
+   Rank two = new Rank("two", 2);
+   Rank three = new Rank("three", 3);
+   Rank four = new Rank("four", 4); 
+   Rank five = new Rank("five", 5); 
+   Rank six = new Rank("six", 6); 
+   Rank seven = new Rank("seven", 7);
+   Rank eight = new Rank("eight", 8); 
+   Rank nine = new Rank("nine", 9); 
+   Rank ten = new Rank("ten", 10); 
+   Rank jack = new Rank("jack", 11);
+   Rank queen = new Rank("queen", 12);
+   Rank king = new Rank("king", 13);
+   Rank ace = new Rank("ace", 14); 
+  }
+   
+  public Suit cardSuit
+  {
+   Suit clubs = new Suit("Clubs", 0);
+   Suit spades = new Suit("Spades", 0);
+   Suit diamonds = new Suit("Diamonds", 0);
+   Suit hearts = new Suit("Hearts", 0);
+  }
+  
+
+}
